@@ -1,0 +1,34 @@
+body{
+    height: 100%;
+    background-color: #1E85C5!important;
+}
+html{
+    height: 100%;
+}
+
+div.offset-md-1.col-md-10.offset-md-1.mt-5.justify-content-center.ajustementPerso{
+    background-color:#6bb1e2;
+    border-radius: 25px;
+    border: 2px solid white;
+    color: white;
+}
+.customBoldActive{
+    font-weight: 700;
+}
+.customNormalActive{
+    font-style: normal;
+}
+.customItalicActive{
+    font-style: italic;
+}
+.customObliqueActive{
+    font-style: oblique;
+}
+div.fadeInleft{
+    
+    animation-duration: 3s;
+}
+div.fadeInRight{
+    
+    animation-duration: 3s;
+}

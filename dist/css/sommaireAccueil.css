@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700');
+
+section#imagesHome{
+    margin-top: 65px;
+    
+}
+h2.customTitle1{
+    
+   
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+   font-size: 34px;
+    padding: 10px;
+}
+h3.customTitle4{
+    margin-left: -329px;
+    margin-top: 150px;
+}
+h2.customTitleTexteBanderole{
+    
+   
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+   font-size: 34px;
+    padding: 10px;
+}
+h1.customTitleDiaporama{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+    padding-bottom: 135px;
+}
+
+h2.customTitle2{
+    
+   
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+margin-bottom: 150px;
+    padding: 15px;
+    width: 115px;
+    margin-top: 70px;
+}
+
+
+button.colorBtn{
+    color: white;
+    background-color: #1e85c5;
+}
+
+
+
+    .btn-change5{
+        height:90px;
+        width: 150px;
+        font-size: 24px;
+        background: #1e85c5;
+        margin: 20px;
+        float: left;
+        border:0px;
+        color:#fff;
+        
+    
+        
+        -webkit-box-shadow: 50px 0px 0 0 #1e85c5 inset , -50px 0px 0 #1e85c5 inset;
+    }
+    .btn-change5:hover{
+        -webkit-box-shadow: 0px 0px 0 0 #1e85c5 inset , 0px 0px 0 #1e85c5 inset;
+        transition-duration: 1s; /* La transition dure 1s */
+    }
+    button.colorBtn:hover{
+        border: 2px solid #1e85c5;
+        color: #1e85c5;
+        background-color: white;
+    }
+    div.traitBlanc{
+     
+                  
+    }
+    div.traitBlanc1{
+     
+                  width:155px;
+                  
+                  
+    }
+    div.justify-content-center.mt-5{
+        width:100%;
+    }
+section#aerationPara{
+    height:400px;
+}
+h1.defileParent.defile.text-right {
+
+    margin-top: 200px!important;
+}
+div.row.whiteSpace2{
+    margin-top:40px;
+}
+div.container.customContainer{
+    width: 237px;
+    padding: 13px;
+    padding-bottom: 6px;
+    font-family: 'Merriweather Sans', sans-serif;
+   
+   
+  
+  
+    
+    
+    
+}
+
+p.customTexteInsert1{
+    color: black;
+}
+div.row.whiteSpace3{
+   margin-top: -100px;
+}
+@media only screen and (max-width: 360px) {
+    h2:first-child{
+        margin-top: -150px;
+    }
+  
+h1.customTitleDiaporama{
+    margin-bottom: 150px;
+}
+   h2.customTitle2{
+       margin-top: 70px;
+   }
+    
+}

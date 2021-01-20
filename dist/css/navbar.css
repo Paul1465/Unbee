@@ -1,0 +1,95 @@
+/* Folder 1 */
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+
+a.nav-link{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+   
+   
+}
+body{ font-family:arial;
+    height:100%;
+    display:block;
+    
+}
+html{
+    height:100%;
+}
+
+header{
+    display:inline-block;
+    width: 100%;
+}   
+   
+a.nav-link{
+    padding-right: 70px !important;
+    padding-bottom: 25px!important;
+}
+img#logoUnbee{
+    height:92px;
+    width:92px;
+    position:relative;
+    
+    height:92px;
+    width:92px;
+    margin-top: -60px;
+    margin-left: 70px;
+    
+}
+div.container-fluid.fondBlanc{
+    background-color: white;
+    border-bottom: 0.5px solid black;
+    
+}
+img#signOut{
+    height:92px;
+    width:92px;
+}
+ul.nav.justify-content-end{
+    display: inline;
+}
+div.container-fluid.fondBlanc{
+    width: 100%;
+    background-color: white;
+}
+ul.nav.justify-content-end.nav-pills.nav-fill.navtop{
+   float: right;
+   margin-top : 25px;
+}
+img#signOut{
+    height:25px;
+}
+
+
+
+/* Folder 2 */
+
+ul.nav.justify-content-end.pageSlider{
+    display: inline-flex ;
+    float: right;
+    list-style: none;
+    font-size: 14px;
+  
+    padding:10px;
+}
+
+img#logoUnbee1{
+    height:92px;
+    width:92px;
+    position:relative;
+    
+    
+    margin-top: -61px;
+    margin-left: 64px;
+        
+    
+}
+div.container-fluid.fondBlanc1{
+height: 77px;
+border-bottom:1px solid black;
+background-color: white;
+
+}

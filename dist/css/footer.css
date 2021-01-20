@@ -1,0 +1,19 @@
+.footerPersonalize{
+    background-color:#1d85c6;
+   z-index: -99999999;
+   margin-left: -15px;
+    padding: 20px;
+}
+span.text-muted.d-flex.justify-content-end{
+    color: white!important;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 360px) {
+    img#displayImg{
+        display: none;
+    }
+    img#displayAnotherImg{
+        display: block!important;
+    }
+}

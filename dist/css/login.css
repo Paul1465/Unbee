@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Merriweather+Sans');
+
+.sidebar-menu, .main-sidebar .user-panel, .sidebar-menu > li.header {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.sidebar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body {
+
+    
+    
+    background-color: #6bb1e2;
+    height: 100%!important;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+
+}
+div.container.h-100.d-flex.justify-content-center{
+height: 400px;
+
+width: 350px;
+
+
+
+
+margin-top: -230px;
+
+
+
+
+display: flex;
+
+justify-content: center;
+
+flex-direction: column;
+
+padding: 10px;
+border-radius: 5px;
+}
+
+div.container.h-70.d-flex.justify-content-center{
+    margin-top: 150px ;
+}
+
+button.btn.loginBtn.mt-1{
+    
+    background-color: #1E85C5!important;
+  border: none;
+   font-size:19px;
+   color: white;
+   
+}
+button.btn.loginBtn.mt-1:hover{
+    color:#1E85C5!important;
+    background-color: white!important;
+
+}
+
+h2{
+    justify-content: center;
+}
+#loading {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-image: url('../../dist/img/load.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+img.logoUnbee1{
+    height: 92px;
+    width: 92px;
+    
+    margin-top:70px;
+}
+
+@media only screen and (max-width: 360px) {
+    img.logoUnbee1{
+        margin-top: -140px;
+    }
+
+    
+    
+}

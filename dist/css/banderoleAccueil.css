@@ -1,0 +1,110 @@
+/* Texte défilant     flipInX*/
+
+.defileParent {
+	display: block;
+	margin: 1em auto;	
+	overflow: hidden;
+	position: relative;
+	table-layout: fixed;
+	width: inherit;
+}
+.defile {
+	display:block;
+	-webkit-animation:linear marqueelike 15s infinite ;
+	-moz-animation:linear marqueelike 15s infinite ;
+	-o-animation:linear marqueelike 15s infinite ;
+	-ms-animation:linear marqueelike 15s infinite ;
+	animation:linear marqueelike 15s infinite ;
+	margin-left:-100%;
+	padding:50 5px;
+	text-align:left;
+	height:25px;
+}
+
+
+.defile:after {
+	content:attr(data-text);
+	position:absolute;
+	white-space:nowrap;
+	padding-left:10px;
+}
+
+@-webkit-keyframes marqueelike {
+	0%, 100% {margin-left:48%;}
+	99.99% {margin-left:-125%;}
+ }
+@-moz-keyframes marqueelike {
+	0%, 100% {margin-left:48%;}
+	99.99% {margin-left:-125%;}
+ }
+@-o-keyframes marqueelike {
+	0%, 100% {margin-left:48%;}
+	99.99% {margin-left:-125%;}
+ }
+@-ms-keyframes marqueelike {
+	0%, 100% {margin-left:48%;}
+	99.99% {margin-left:-125%;}
+ }
+@keyframes marqueelike {
+	0%, 100% {margin-left:48%;}
+	99.99% {margin-left:-125%;}
+ }
+
+@media only screen and (max-width: 860px) {
+.defileParent {
+	display: block;
+	margin: 3em auto;
+	overflow: hidden;
+	position: relative;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.defile {
+	display:block;
+	-webkit-animation:linear marqueelike 15s infinite ;
+	-moz-animation:linear marqueelike 15s infinite ;
+	-o-animation:linear marqueelike 15s infinite ;
+	-ms-animation:linear marqueelike 15s infinite ;
+	animation:linear marqueelike 15s infinite ;
+	margin-left:-100%;
+	padding:0 5px;
+	text-align:left;
+	height:25px;
+}
+}
+body{
+	
+	height: 100%;
+	
+
+}
+html{
+    height: 100%;
+    
+    
+}
+div.row.bgColor{
+	margin-top: 210px;
+}
+h1.defileParent.defile.text-right{
+    margin-top: 80px;
+    z-index: -999;
+}
+p.modifTexte{
+	color:black;
+}
+div.offset-md-1.col-md-10.offset-md-1.mt-5{
+	overflow: hidden;
+}
+
+div.row.bgColor1{
+	position: absolute;
+	width:100%;
+	background-color: #90caf9;
+    top: 43%;
+    display: table-cell;
+	vertical-align: middle;
+	
+	
+}

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 360px) {
+    nav#sidebar{
+        display: none;
+    }
+    div.row.whiteSpace3{
+        margin-top: 100px;
+    }
+    h3.customTitle4{
+        margin-left: 329px;
+    }
+    button#sidebarCollapse{
+        display: none;
+    }
+    div#image_data{
+        width: 1%;
+        margin-left: -25px;
+    }
+    th:nth-child(3){
+        display:block;
+    }
+    div.text-right{
+        text-align: left!important;
+        
+    }
+    h3.text-center{
+        text-align: left !important;
+    }
+    div.bs-component{
+        display: block!important;
+    }
+
+    li{
+        color: white;
+    }
+}
+
+
+

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Merriweather+Sans');
+
+
+body{
+font-family: 'Hammersmith One', sans-serif;}
+
+
+div.bs-component{
+    display:none;
+}
+img.logoPersonalisation{
+    height:92px;
+    width:92px;
+}
+nav.colorNavSmallSize{
+    background-color:#1d85c6;
+}
+
+p.colorTitle{
+    text-align: right;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+
+
+}
